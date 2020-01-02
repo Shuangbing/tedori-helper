@@ -14,6 +14,7 @@ class App extends StatelessWidget {
      home: Scaffold(
        appBar: Header(),
        body: Center(child: Text("追加ボタンを押して手取りを算出しましょう")),
+       bottomNavigationBar: Footer()
      ),
    );
  }
